@@ -1,0 +1,18 @@
+.footer {
+  padding: 40px 20px;
+  background-color: #2D2424; /* Un tono café muy oscuro para cerrar */
+  color: #fff;
+  text-align: center;
+}
+
+.social-links {
+  margin-top: 15px;
+}
+
+.social-links a {
+  color: #A67B5B;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+

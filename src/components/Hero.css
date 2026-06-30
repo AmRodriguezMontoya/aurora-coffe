@@ -1,0 +1,31 @@
+.hero-section {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  /* El ajuste "center 20%" sube el enfoque de la imagen */
+  background-position: center 20%; 
+  color: white;
+  padding: 0 20px;
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.hero-section h1 {
+  color: white;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+}
+
+.hero-section p {
+  color: #eee;
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+

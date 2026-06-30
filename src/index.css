@@ -1,0 +1,38 @@
+/* Estilos globales */
+:root {
+  --primary-color: #2D2424;
+  --accent-color: #A67B5B;
+  --bg-color: #FDFBF7;
+  --text-color: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+/* Botón Profesional */
+.btn-primary {
+  display: inline-block;
+  background-color: var(--primary-color);
+  color: white !important; /* Fuerza a quitar el azul del navegador */
+  padding: 15px 30px;
+  text-decoration: none !important; /* Quita subrayado */
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-color);
+}
+
+
+

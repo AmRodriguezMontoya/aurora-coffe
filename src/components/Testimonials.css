@@ -1,0 +1,51 @@
+.testimonials-section {
+  padding: 80px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.testimonials-section h2 {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 50px;
+  color: #2D2424;
+}
+
+.testimonials-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  background: #FDFBF7;
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Nuevo estilo para las estrellas */
+.stars {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.testimonial-text {
+  font-style: italic;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.testimonial-author {
+  color: #A67B5B;
+  font-weight: bold;
+}
+

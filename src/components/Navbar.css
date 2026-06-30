@@ -1,0 +1,81 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #2D2424;
+  color: white;
+  position: relative; /* Importante para el menú desplegable */
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* --- Estilos del Botón Hamburguesa --- */
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.line {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+/* --- Estilos de los Enlaces --- */
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white; /* Color blanco */
+  text-decoration: none; /* Quitamos el subrayado */
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #D2691E; /* Un toque de naranja al pasar el mouse */
+}
+
+/* --- Diseño Responsivo (Celulares) --- */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 100%; /* Justo debajo del navbar */
+    right: -100%; /* Oculto fuera de la vista */
+    flex-direction: column;
+    background: #2D2424;
+    width: 100%;
+    height: 100vh; /* Ocupa toda la pantalla */
+    transition: 0.3s ease-in-out;
+    padding-top: 50px;
+    align-items: center;
+  }
+
+  .nav-links.open {
+    right: 0; /* Se desliza hacia adentro */
+  }
+
+  .nav-links li {
+    padding: 20px;
+  }
+  
+  .nav-links a {
+    font-size: 1.5rem; /* Enlaces más grandes en móvil */
+  }
+}
