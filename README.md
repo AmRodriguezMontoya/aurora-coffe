@@ -1,16 +1,29 @@
-# React + Vite
+# ☕ Aurora Coffee
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenida a Aurora Coffee! Este es un proyecto de una landing page elegante diseñada para una cafetería artesanal.
 
-Currently, two official plugins are available:
+## 🚀 Enlace al proyecto (Live Demo)
+Puedes ver el sitio en vivo aquí:
+http://localhost:5178/#contacto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tecnologías utilizadas
+Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 
-## React Compiler
+- **React**: Biblioteca de JavaScript para construir la interfaz.
+- **Vite**: Herramienta de compilación rápida.
+- **CSS3**: Para los estilos personalizados.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+## 📋 Características
+- Diseño moderno y responsivo.
+- Sección de productos destacados.
+- Sección de testimonios de clientes.
+- Formulario de contacto funcional.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 Cómo ejecutarlo localmente
+1. Clona este repositorio:
+   `git clone https://github.com/AmRodriguezMontoya/aurora-coffe.git`
+2. Instala las dependencias:
+   `npm install`
+3. Inicia el servidor de desarrollo:
+   `npm run dev`
